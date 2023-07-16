@@ -40,7 +40,7 @@ const Hero = () => {
                     <Link to="" className="w-[157px] px-[20px] py-[12px] bg-greenMain text-white font-medium uppercase rounded-[4px] hover:shadow-lg hover:shadow-slate-400 ease duration-300">Bắt đầu ngay</Link>                
                 </div>
                 <div className="w-full h-full">
-                    <img className="w-full h-full object-cover" src="../../public/commercial-image.webp" alt="" />
+                    <img className="w-full h-full object-cover" src="/commercial-image.webp" alt="" />
                 </div>
             </div>
         </section>

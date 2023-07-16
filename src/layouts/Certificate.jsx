@@ -30,9 +30,9 @@ const Certificate = () => {
                         <p className="text-textBlack1 text-[0.8rem] font-normal">Các chứng chỉ này đánh dấu sự thành công và nỗ lực không ngừng của những người đã nắm vững kiến thức về bất động sản, các quy trình lưu trữ, quản lý kho, kiểm soát chất lượng và an toàn trong lĩnh vực nông nghiệp sạch và sản xuất sắt thép</p>
                     </div>
                     <div className="grid grid-cols-3 gap-x-7">
-                        <img className="w-full h-full cover shadow-lg" src="../../public/cc1.jpg" alt="" />
-                        <img className="w-full h-full cover shadow-lg" src="../../public/cc2.jpg" alt="" />
-                        <img className="w-full h-full cover shadow-lg" src="../../public/cc3.jpg" alt="" />
+                        <img className="w-full h-full cover shadow-lg" src="/cc1.jpg" alt="" />
+                        <img className="w-full h-full cover shadow-lg" src="/cc2.jpg" alt="" />
+                        <img className="w-full h-full cover shadow-lg" src="/public/cc3.jpg" alt="" />
                     </div>
                     <div className="w-full h-[100px] flex justify-center items-center gap-x-2">
                         <button className="text-greenMain w-[40px] h-[40px] flex justify-center items-center bg-none border-[2px] border-greenMain rounded-[50%] hover:text-white hover:bg-greenMain ease-in duration-300"onClick={handleLeftClick} disabled={currentImage === 1}>

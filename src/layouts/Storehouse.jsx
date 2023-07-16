@@ -27,7 +27,7 @@ const Storehouse = () => {
                     <div className="
                         h-[50%]
                         ">
-                        <img className='w-full h-full' src="../../public/ch1.jpg" alt="" />
+                        <img className='w-full h-full' src="/ch1.jpg" alt="" />
                     </div>
                     <div className="flex flex-grow flex-col justify-between text-left px-[10px] py-[20px]">
                         <div className="">
@@ -49,7 +49,7 @@ const Storehouse = () => {
                     <div className="
                         h-[50%]
                         ">
-                        <img className='w-full h-full' src="../../public/ch2.jpg" alt="" />
+                        <img className='w-full h-full' src="/ch2.jpg" alt="" />
                     </div>
                     <div className="flex flex-grow flex-col justify-between text-left px-[10px] py-[20px]">
                         <div className="">
@@ -68,7 +68,7 @@ const Storehouse = () => {
                     <div className="
                         h-[50%]
                         ">
-                        <img className='w-full h-full' src="../../public/ch6.jpg" alt="" />
+                        <img className='w-full h-full' src="/ch6.jpg" alt="" />
                     </div>
                     <div className="flex flex-grow flex-col justify-between text-left px-[10px] py-[20px]">
                         <div className="">
@@ -105,7 +105,7 @@ const Storehouse = () => {
                 </div>
                 <div className="flex flex-col border-t-[1px] border-r-[1px] border-b-[1px] border-textGray2">
                     <div className="h-[50%]">
-                        <img className='w-full h-full' src="../../public/ks1.jpg" alt="" />
+                        <img className='w-full h-full' src="/ks1.jpg" alt="" />
                     </div>
                     <div className="flex flex-grow flex-col justify-between text-left px-[10px] py-[20px]">
                         <div className="">
@@ -124,7 +124,7 @@ const Storehouse = () => {
                     lg:border-l-[0px]
                     flex flex-col border-t-[1px] border-r-[1px] border-b-[1px] border-textGray2">
                     <div className="h-[50%]">
-                        <img className='w-full h-full' src="../../public/ks3.jpg" alt="" />
+                        <img className='w-full h-full' src="/public/ks3.jpg" alt="" />
                     </div>
                     <div className="flex flex-grow flex-col justify-between text-left px-[10px] py-[20px]">
                         <div className="">
@@ -140,7 +140,7 @@ const Storehouse = () => {
                 </div>
                 <div className="flex flex-col border-t-[1px] border-r-[1px] border-b-[1px] border-textGray2">
                     <div className="h-[50%]">
-                        <img className='w-full h-full' src="../../public/ks2.jpg" alt="" />
+                        <img className='w-full h-full' src="/public/ks2.jpg" alt="" />
                     </div>
                     <div className="flex flex-grow flex-col justify-between text-left px-[10px] py-[20px]">
                         <div className="">
@@ -176,7 +176,7 @@ const Storehouse = () => {
                 </div>
                 <div className="flex flex-col border-t-[1px] border-r-[1px] border-b-[1px] border-textGray2">
                     <div className="h-[50%]">
-                        <img className='w-full h-full' src="../../public/st3.jpg" alt="" />
+                        <img className='w-full h-full' src="/public/st3.jpg" alt="" />
                     </div>
                     <div className="flex flex-grow flex-col justify-between text-left px-[10px] py-[20px]">
                         <div className="">
@@ -195,7 +195,7 @@ const Storehouse = () => {
                     lg:border-l-[0px]
                     flex flex-col border-t-[1px] border-r-[1px] border-b-[1px] border-textGray2">
                     <div className="h-[50%]">
-                        <img className='w-full h-full' src="../../public/st4.jpg" alt="" />
+                        <img className='w-full h-full' src="/public/st4.jpg" alt="" />
                     </div>
                     <div className="flex flex-grow flex-col justify-between text-left px-[10px] py-[20px]">
                         <div className="">
@@ -211,7 +211,7 @@ const Storehouse = () => {
                 </div>
                 <div className="flex flex-col border-t-[1px] border-r-[1px] border-b-[1px] border-textGray2">
                     <div className="h-[50%]">
-                        <img className='w-full h-full' src="../../public/st5.png" alt="" />
+                        <img className='w-full h-full' src="/public/st5.png" alt="" />
                     </div>
                     <div className="flex flex-grow flex-col justify-between text-left px-[10px] py-[20px]">
                         <div className="">
@@ -249,7 +249,7 @@ const Storehouse = () => {
                     <div className="
                         h-[50%]
                         ">
-                        <img className='w-full h-full' src="../../public/ns5.jpg" alt="" />
+                        <img className='w-full h-full' src="/public/ns5.jpg" alt="" />
                     </div>
                     <div className="flex flex-grow flex-col justify-between text-left px-[10px] py-[20px]">
                         <div className="">
@@ -269,7 +269,7 @@ const Storehouse = () => {
                     <div className="
                         h-[50%]
                         ">
-                        <img className='w-full h-full' src="../../public/ns6.jpg" alt="" />
+                        <img className='w-full h-full' src="/public/ns6.jpg" alt="" />
                     </div>
                     <div className="flex flex-grow flex-col justify-between text-left px-[10px] py-[20px]">
                         <div className="">
@@ -286,7 +286,7 @@ const Storehouse = () => {
                     <div className="
                         h-[50%]
                         ">
-                        <img className='w-full h-full' src="../../public/ns8.jpg" alt="" />
+                        <img className='w-full h-full' src="/public/ns8.jpg" alt="" />
                     </div>
                     <div className="flex flex-grow flex-col justify-between text-left px-[10px] py-[20px]">
                         <div className="">

@@ -4,42 +4,42 @@ const News = () => {
 
     const newData = [
         {
-            img: '../../public/Hero.png',
+            img: '/Hero.png',
             title: 'Nông sản sạch: Ưu điểm và cách nhận biết',
             description: 'Tìm hiểu về lợi ích của nông sản sạch và cách nhận biết những sản phẩm chất lượng cao.',
             author: 'John Doe',
             date: '14/07/2023',
         },
         {
-            img: '../../public/ns1.jpg',
+            img: '/ns1.jpg',
             title: 'Thông báo: Hội chợ nông sản sạch diễn ra vào ngày 20/07/2023',
             description: 'Hội chợ nông sản sạch lớn nhất trong năm sẽ diễn ra vào ngày 20/07/2023 tại Trung tâm Hội nghị Thống Nhất. Đây là cơ hội để người dân tiếp cận và mua sắm nông sản sạch chất lượng cao.',
             author: 'Admin',
             date: '15/07/2023',
           },
           {
-            img: '../../public/bds1.jpg',
+            img: '/bds1.jpg',
             title: 'Nông sản sạch - Xu hướng mua sắm của người tiêu dùng',
             description: 'Nông sản sạch đang trở thành xu hướng mua sắm phổ biến của người tiêu dùng hiện nay. Bài viết này sẽ giúp bạn hiểu rõ hơn về lợi ích và cách nhận biết nông sản sạch.',
             author: 'Jane Doe',
             date: '16/07/2023',
           },
           {
-            img: '../../public/ks1.jpg',
+            img: '/ks1.jpg',
             title: 'Những lợi ích của việc sử dụng nông sản sạch',
             description: 'Nông sản sạch không chỉ có lợi ích cho sức khỏe của con người mà còn đóng góp tích cực vào bảo vệ môi trường và phát triển nông nghiệp bền vững. Hãy tìm hiểu những lợi ích của việc sử dụng nông sản sạch.',
             author: 'John Smith',
             date: '17/07/2023',
           },
           {
-            img: '../../public/ns2.jpg',
+            img: '/ns2.jpg',
             title: 'Cách nhận biết nông sản sạch chất lượng cao',
             description: 'Việc nhận biết nông sản sạch chất lượng cao là một kỹ năng quan trọng giúp bạn lựa chọn những sản phẩm an toàn và chất lượng. Hãy tìm hiểu những chỉ dẫn đơn giản để nhận biết nông sản sạch.',
             author: 'Emily Johnson',
             date: '18/07/2023',
           },
           {
-            img: '../../public/st1.jpg',
+            img: '/st1.jpg',
             title: 'Nông sản sạch và sự phát triển của nông nghiệp bền vững',
             description: 'Nông sản sạch đóng góp quan trọng vào sự phát triển của nông nghiệp bền vững. Bài viết này sẽ phân tích vai trò của nông sản sạch trong bảo vệ môi trường, tạo thu nhập cho nông dân và đáp ứng nhu cầu của người tiêu dùng.',
             author: 'David Williams',
