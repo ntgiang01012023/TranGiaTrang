@@ -34,7 +34,7 @@ const Most = () => {
                             sm:w-[50%] sm:h-[200px]
                             md:w-[60%] md:h-[200px]
                             lg:w-[50%] lg:h-full">
-                            <img className='w-full h-full cover' src="/public/bds3.png" alt="" />
+                            <img className='w-full h-full cover' src="/bds3.png" alt="" />
                         </div>
                     </div>
                     <div className="
@@ -64,7 +64,7 @@ const Most = () => {
                             sm:w-[50%] sm:h-[200px]
                             md:w-[60%] md:h-[200px]
                             lg:w-[50%] lg:h-full">
-                            <img className='w-full h-full cover' src="/public/ks2.jpg" alt="" />
+                            <img className='w-full h-full cover' src="/ks2.jpg" alt="" />
                         </div>
                     </div>
             
@@ -90,7 +90,7 @@ const Most = () => {
                             sm:w-[50%] sm:h-[200px]
                             md:w-[60%] md:h-[200px]
                             lg:w-[50%] lg:h-full">
-                            <img className='w-full h-full cover' src="/public/st2.webp" alt="" />
+                            <img className='w-full h-full cover' src="/st2.webp" alt="" />
                         </div>
                     </div>
                     <div className="md:h-[200px]
@@ -115,7 +115,7 @@ const Most = () => {
                             sm:w-[50%] sm:h-[200px]
                             md:w-[60%] md:h-[200px]
                             lg:w-[50%] lg:h-full">
-                            <img className='w-full h-full cover' src="/public/ns3.jpeg" alt="" />
+                            <img className='w-full h-full cover' src="/ns3.jpeg" alt="" />
                         </div>
                     </div>
                 </div>
