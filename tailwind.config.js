@@ -20,6 +20,11 @@ module.exports = {
       },
       backgroundImage: {
         'heroPattern': "url('/commercial-image.webp')",
+      },
+      theme: {
+        screens: {
+          'xs': '300px',
+        }
       }
     },
   },

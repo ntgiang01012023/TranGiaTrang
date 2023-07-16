@@ -77,12 +77,12 @@ const Header = () => {
     ];
 
     return (
-        <header className='fixed z-50 top-0 left-0 w-full h-[80px] bg-white shadow shadow-shadow'>
-            <div className="sm:w-full md:w-full lg:w-full bg-white max-w-[1280px] h-full px-[10px] mx-auto flex justify-between items-center">
+        <header className='fixed z-50 top-0 left-0 w-full h-[80px] border-b-[1px] border-textGray2'>
+            <div className="min-[300px]:w-full sm:w-full md:w-full lg:w-full bg-white max-w-[1280px] h-full px-[10px] mx-auto flex justify-between items-center">
                 <div className="">
                     <Logo />
                 </div>
-                <div className="sm:hidden md:hidden lg:block">
+                <div className="min-[300px]:hidden sm:hidden md:hidden lg:hidden xl:block">
                     <ul className='flex items-center text-[15px] text-textBlack gap-x-8'>
                         <li className="relative group">
                             <Link 
@@ -116,7 +116,7 @@ const Header = () => {
                         <li><Link to="" className='hover:text-greenMain ease duration-300'>Hổ trợ</Link></li>
                     </ul>
                 </div>
-                <div className="sm:hidden md:hidden lg:block">
+                <div className="min-[300px]:hidden sm:hidden md:hidden lg:block">
                     <ul className='flex items-center text-[15px] text-textBlack gap-x-5'>
                         <li><Link to="" className='block px-[20px] py-[12px] text-white font-medium uppercase bg-greenMain border-[1px] border-greenMain rounded-[4px] hover:shadow-lg hover:shadow-greenMain ease duration-300'>Đăng ký</Link></li>
                         <li><Link to="" className='block px-[20px] py-[12px] text-textBlack border-[1px] border-slate-200 font-medium uppercase bg-blue rounded-[4px] hover:shadow-lg hover:shadow-slate-400 ease duration-300'>Đăng nhập</Link></li>
@@ -124,10 +124,10 @@ const Header = () => {
                 </div>
                 <div className={`
                     ${menu ? 'tablet:nav-show' : 'tablet:nav-hide'}
-                    fixed top-0 left-0 w-full h-full bg-slate-900 sm:block md:block lg:hidden`}
+                    fixed top-0 left-0 transform translate-x-[-50%] translate-y-[-50%] w-full h-full bg-slate-900 min-[300px]:block sm:block md:block lg:hidden`}
                     >
                     <div className="w-full h-full flex justify-between items-start">
-                        <ul className='sm:w-[50%] sm:px-[30px] w-[40%] h-full bg-white text-[15px] p-[20px]'>
+                        <ul className='min-[30px]:w-[70%] sm:w-[50%] sm:px-[30px] w-[40%] h-full bg-white text-[15px] p-[20px]'>
                             <li className='w-full mb-6'><Logo /></li>
                             <li className='w-full text-left text-textBlack font-semibold py-2'>
                                 <Link to="" className='w-full flex justify-between items-center'>
@@ -153,11 +153,16 @@ const Header = () => {
                 </div>
                 <div className={`
                     ${menu ? 'tablet:icon-show' : 'tablet:icon-show'}
-                    w-12 h-12 flex justify-center items-center 
+                    w-12 h-12
+                    min-[300px]:block
+                    sm:block
+                    md:block
                     lg:hidden
                 `}>
-                    <i className={`
-                    ${menu ? "fa-solid fa-xmark text-white" : "fa-solid fa-bars text-black"}`} onClick={toggleMenu}></i>
+                    <div className="w-full h-full flex justify-center items-center">
+                        <i className={`
+                        ${menu ? "fa-solid fa-xmark text-white" : "fa-solid fa-bars text-black"}`} onClick={toggleMenu}></i>
+                    </div>
                 </div>
             </div>
         </header>

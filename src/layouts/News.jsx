@@ -48,15 +48,16 @@ const News = () => {
     ];
 
     return (
-        <section className="bg-white w-full h-auto py-[20px]">
+        <section className="min-[300px]:w-[100%] bg-white w-full h-auto py-[20px]">
             <div className="flex flex-col bg- max-w-[1280px] h-full px-[10px] mx-auto">
                 <div className="w-full h-16 bg-">
-                    <div className="w-[180px] hover:w-[220px] h-full flex justify-start items-center border-b-[5px] border-greenMain ease duration-300">
-                        <h3 className="sm:text-[1rem] text-[1.3rem] uppercase">Bản tin <span>nổi bật</span></h3>
+                    <div className="min-[300px]:w-[120px] sm:w-[180px] md:w-[180px] lg:w-[180px] hover:w-[220px] h-full flex justify-start items-center border-b-[5px] border-greenMain ease duration-300">
+                        <h3 className="min-[300px]:text-[0.8rem] sm:text-[1rem] text-[1.3rem] uppercase">Bản tin <span>nổi bật</span></h3>
                     </div>
                 </div>
                 <div className="md:h-auto w-full flex-grow py-5">
                     <div className="
+                        min-[300px]:grid-cols-1 min-[300px]::w-full min-[300px]::h-auto
                         sm:grid-cols-1 sm:w-full sm:h-auto 
                         md:grid-cols-2 md:h-full
                         lg:grid-cols-3 lg:h-auto

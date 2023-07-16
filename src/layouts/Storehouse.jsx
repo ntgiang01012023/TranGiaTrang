@@ -4,8 +4,9 @@ const Storehouse = () => {
 
     return (
 
-        <section className="bg-white w-full h-auto py-[20px]">
+        <section className="min-[300px]:w-[100%] bg-white w-full h-auto py-[20px]">
             <div className="
+                min-[300px]:grid-cols-1
                 sm:grid-cols-2
                 md:grid-cols-2
                 lg:grid-cols-4

@@ -18,7 +18,7 @@ const Certificate = () => {
 
     return (
 
-        <section className="bg-textGray3 w-full h-auto py-[20px]">
+        <section className="min-[300px]:w-[100%] bg-textGray3 w-full h-auto py-[20px]">
             <div className="
                 sm:grid-cols-1
                 md:grid-cols-2
@@ -44,6 +44,7 @@ const Certificate = () => {
                     </div>
                 </div>
                 <div className="
+                    min-[300px]:hidden
                     sm:hidden
                     md:block
                     lg:block">
