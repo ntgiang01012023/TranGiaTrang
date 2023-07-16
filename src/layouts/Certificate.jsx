@@ -32,7 +32,7 @@ const Certificate = () => {
                     <div className="grid grid-cols-3 gap-x-7">
                         <img className="w-full h-full cover shadow-lg" src="/cc1.jpg" alt="" />
                         <img className="w-full h-full cover shadow-lg" src="/cc2.jpg" alt="" />
-                        <img className="w-full h-full cover shadow-lg" src="/public/cc3.jpg" alt="" />
+                        <img className="w-full h-full cover shadow-lg" src="/cc3.jpg" alt="" />
                     </div>
                     <div className="w-full h-[100px] flex justify-center items-center gap-x-2">
                         <button className="text-greenMain w-[40px] h-[40px] flex justify-center items-center bg-none border-[2px] border-greenMain rounded-[50%] hover:text-white hover:bg-greenMain ease-in duration-300"onClick={handleLeftClick} disabled={currentImage === 1}>
