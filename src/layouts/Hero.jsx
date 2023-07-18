@@ -26,7 +26,7 @@ const Hero = () => {
                             Tìm kiếm và kết nối với
                     </h1>
                     <h1 className="
-                        min-[300px]:text-[1.3rem]
+                        min-[300px]:text-[1.3rem] min-[300px]:text-center
                         sm:text-center sm:text-[1.8rem]
                         md:text-[2.3rem] md:text-left
                         lg:text-left
